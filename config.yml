@@ -42,7 +42,7 @@ Nodes:
       CertConfig:
         CertMode: file # Option about how to get certificate: none, file, http, dns. Choose "none" will forcedly disable the tls config.
         CertDomain: "guike.live" # Domain to cert
-        CertFile: /etc/XrayR/guike.pem # Provided if the CertMode is file
+        CertFile: /etc/XrayR/guike.cert # Provided if the CertMode is file
         KeyFile: /etc/XrayR/guike.key
         Provider: alidns # DNS cert provider, Get the full support list here: https://go-acme.github.io/lego/dns/
         Email: test@me.com
